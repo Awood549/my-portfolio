@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Nav from './navBar.js'
+import Nav from '../components/navBar.js'
 
 export default function Home() {
   return (
