@@ -1,13 +1,14 @@
 import Header from '../components/header.js'
+import GuessWhoThumb from '../public/static/GuessWhoThumb.PNG'
 
 export default function Projects (props) {
   let projects = [
     {
       name: 'Guess Who',
-      link: 'www.whodat.com',
+      link: 'mean-gorls.github.io/guess-who/',
       description: 'find tha dude',
       techDesc: 'using a keyboard I Blah',
-      thumbNail: 'Pic',
+      thumbNail: GuessWhoThumb,
       
     }
   ]
@@ -15,7 +16,7 @@ export default function Projects (props) {
   function displayProject(object){
     return <>
     <h4> {object.name} </h4>
-    <image></image>
+    <img src= './static/GuessWhoThumb.PNG'></img>
     </>
   }
                    
