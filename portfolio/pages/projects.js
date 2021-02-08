@@ -8,16 +8,16 @@ export default function Projects (props) {
       link: 'mean-gorls.github.io/guess-who/',
       description: 'find tha dude',
       techDesc: 'using a keyboard I Blah',
-      thumbNail: GuessWhoThumb,
+      // thumbNail: GuessWhoThumb,
       
     }
   ]
 
   function displayProject(object){
     return <>
-    
+
     <h4> {object.name} </h4>
-    <Image src = '/GuessWhoThumb.PNG'/>
+    <Image src = '/GuessWhoThumb.PNG' width='100%' height = '100%'/>
     </>
   }
                    
