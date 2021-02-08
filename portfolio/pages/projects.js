@@ -1,5 +1,5 @@
 import Header from '../components/header.js'
-import GuessWhoThumb from '../public/static/GuessWhoThumb.PNG'
+import Image from 'next/image'
 
 export default function Projects (props) {
   let projects = [
@@ -15,8 +15,9 @@ export default function Projects (props) {
 
   function displayProject(object){
     return <>
+    
     <h4> {object.name} </h4>
-    <img src= './static/GuessWhoThumb.PNG'></img>
+    <Image src = '/GuessWhoThumb.PNG'/>
     </>
   }
                    
