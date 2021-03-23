@@ -11,7 +11,7 @@ function AboutMe() {
     <p>Started from the boonies and now im here. <br></br> education came from </p>
 
     <h3>  What am I doing now?</h3>
-    <p> building freelance projects and fixing bugs for strangers while searching for my company to nurture <br> </br>*at least one link to projects*</p>
+    <p> building freelance projects and fixing bugs for strangers while searching for my company to nurture <br></br>*at least one link to projects*</p>
 
     <h3> Where will I be in 5 years? </h3>
     <p> *find my company and make it my home, Inclusionary focus*</p>
