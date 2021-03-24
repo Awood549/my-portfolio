@@ -12,6 +12,22 @@ export default function Projects (props) {
       
     },
     {
+      name: 'FMLA Leave Planner',
+      link: 'http://jala-leave.xyz/',
+      description: 'This is a prototype I made for King County Metro, allowing employees to submit requests to use their leave time granted by FMLA.',
+      techDesc: 'Technologies used: jQuery, EJS, Node.js, Express, Method-Override, Nodemon, Node Version Manager, PostgreSQL, Superagent, Visual Studios',
+      // thumbNail: GuessWhoThumb,
+      
+    },
+    {
+      name: 'Guess Who',
+      link: 'mean-gorls.github.io/guess-who/',
+      description: 'find tha dude',
+      techDesc: 'using a keyboard I Blah',
+      // thumbNail: GuessWhoThumb,
+      
+    },
+    {
       name: 'Guess Who',
       link: 'mean-gorls.github.io/guess-who/',
       description: 'find tha dude',
